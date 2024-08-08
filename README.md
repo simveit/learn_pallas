@@ -12,3 +12,7 @@ The order the python programs should be read is
 3) `add_with_blocks_performance_boost.py`
 
 This guide is not completed.
+
+
+# TRC
+Thanks to [Googles TRC team](https://sites.research.google/trc/about/) for providing the ressources to use modern TPUs.
