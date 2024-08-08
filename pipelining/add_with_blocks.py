@@ -29,7 +29,7 @@ We chunk our matrices of size (2048, 2048) into smaller blocks of size (256, 204
 Grid size is 8, so we run the kernel 8 times, each time with a different block.
 The individual blocks always have the size (256, 2048).
 Note: The block size here is chosen arbitrarily and not tuned for performance.
-      This example is intended to show the concept of pipelining to overcome memory constraints.
+This example is intended to show the concept of pipelining to overcome memory constraints.
 """
 @jax.jit
 def add_matrices_pipelined(x: jax.Array, y: jax.Array) -> jax.Array:
