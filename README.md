@@ -9,5 +9,6 @@ The order the python programs should be read is
 
 1) `naive_add_kernel.py`
 2) `add_with_blocks.py`
+3) `add_with_blocks_performance_boost.py`
 
 This guide is not completed.
