@@ -34,7 +34,6 @@ def sum(x: jax.Array, b1:int, b2:int) -> jax.Array:
   )(x)
 
 arr = jax.numpy.ones((8, 4096, 4096))
-# Currently only supports 2D reduction, i.e. b1 or b2 must be 512.
 time_diff = []
 for b1 in [256, 512, 1024]:
   for b2 in [256, 512, 1024]:
