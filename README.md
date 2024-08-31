@@ -10,6 +10,8 @@ The order the python programs should be read is
 1) `naive_add_kernel.py`
 2) `add_with_blocks.py`
 3) `add_with_blocks_performance_boost.py`
+4) `reduce_sum_one_dim_grid.py`
+5) `reduce_sum_three_dim_grid.py`
 
 This guide is not completed.
 
